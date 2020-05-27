@@ -300,7 +300,7 @@ miRNA.align.mir.to.miR <- function(mature.id, mature.seq, precursor.id, precurso
 		res$Mature_Len[i] <- nchar(mature.seq[i])
 		res$Precursor_ID[i] <- precursor.id[i]
 		res$Precursor_Len[i] <- nchar(precursor.seq[i])
-		res$Align.Score[i] <- NA #score(tmp)
+		res$Align.Score[i] <- NA
 		res$Start[i] <- start(subject(tmp))
 		res$End[i] <- end(subject(tmp))
 		res$Align.Prop[i] <- res$Start[i] / res$Precursor_Len[i]
