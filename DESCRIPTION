@@ -33,5 +33,4 @@ Collate:
     'import.gff.R'
 Imports:
     Biostrings,
-    IRanges,
     mjcbase
